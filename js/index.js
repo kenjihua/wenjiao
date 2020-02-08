@@ -830,7 +830,7 @@ $(function () {
     // 设置垂直对齐方式
     ctx.textBaseline = "middle";
     // 绘制文字（参数：要写的字，x坐标，y坐标）
-    ctx.fillText("文佼 元旦快乐", canvas.width/8, canvas.height*4/5);
+    ctx.fillText("文佼 元宵节快乐", canvas.width/8, canvas.height*4/5);
   }
   function draw() {
     // clear
@@ -841,7 +841,7 @@ $(function () {
 
     // 绘制星星
     for (var i = numStars; i--; ) stars[i].draw();
-    drawText()
+    // drawText()
 
     // re-draw
     ctx.globalCompositeOperation = 'screen';
