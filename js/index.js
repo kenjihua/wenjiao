@@ -2,8 +2,8 @@ $(function () {
   var canvas = $('#canvas')[0];
   // canvas.width = $(window).width();
   // canvas.height = $(window).height();
-  canvas.width = 700;
-  canvas.height = 350;
+  canvas.width = $(window).height();
+  canvas.height = $(window).width();
   var ctx = canvas.getContext('2d');
 
   // resize
